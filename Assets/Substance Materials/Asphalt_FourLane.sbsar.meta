@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6b11af6fbd103e04da16ad485c930d7b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 61d14215900e0d449b6044c0c9941afd, type: 2}
+  _assetPath: Assets/Substance Materials/Asphalt_FourLane.sbsar

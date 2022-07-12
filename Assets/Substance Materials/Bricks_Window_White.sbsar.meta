@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5631c384e39dd964b907ac87abd1c3ea
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 7b78dea1412eb154db68183fc62cbe17, type: 2}
+  _assetPath: Assets/Substance Materials/Bricks_Window_White.sbsar

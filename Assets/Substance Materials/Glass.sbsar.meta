@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 37217db51254abe41a22d6e462260b55
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: b8ea7ee3a7dca2141855f89f0d7aec81, type: 2}
+  _assetPath: Assets/Substance Materials/Glass.sbsar

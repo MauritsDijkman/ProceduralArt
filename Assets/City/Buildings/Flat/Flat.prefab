@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5278665728083519763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3232400446159890101}
+  - component: {fileID: 2890413884402765564}
+  - component: {fileID: 8911662713953002864}
+  - component: {fileID: 8388516949657333039}
+  m_Layer: 0
+  m_Name: Flat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3232400446159890101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5278665728083519763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2890413884402765564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5278665728083519763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9095f42264240b249ade10e47c5b2825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshCreator: {fileID: 7166324792427386101, guid: 67d27582584766b4b817e9bbe237364b, type: 3}
+  aircoPlacer: {fileID: 1478411169218922787, guid: a0e9f133d4782214a9a6df84cc279522, type: 3}
+  width: 0
+  depth: 0
+  buildingInfo:
+  - staticHeight: 5
+    randomHeight: 1
+    minHeight: 15
+    maxHeight: 25
+    buildRoofWall: 1
+    roofWallHeight: 0.25
+    brickMaterial: {fileID: 2100000, guid: ebe318c89a10c8a4ab245296ca5e9405, type: 2}
+    firstRowMaterial: {fileID: 2100000, guid: a2830f1bdaf369a4a9adc72956ab191f, type: 2}
+    lastRowDifferent: 0
+    lastRowMaterial: {fileID: 0}
+    roofMaterial: {fileID: 2100000, guid: 3c4f0efb115254b4b8c727ae2850b4a0, type: 2}
+    roofWallMaterial: {fileID: 2100000, guid: 3c4f0efb115254b4b8c727ae2850b4a0, type: 2}
+    buildAirco: 1
+  - staticHeight: 5
+    randomHeight: 1
+    minHeight: 10
+    maxHeight: 20
+    buildRoofWall: 1
+    roofWallHeight: 0.2
+    brickMaterial: {fileID: 2100000, guid: 7d3d5207e17fa5544a90462a2335f7f2, type: 2}
+    firstRowMaterial: {fileID: 2100000, guid: 65a2dbe158981e144888dd1efbad7b14, type: 2}
+    lastRowDifferent: 0
+    lastRowMaterial: {fileID: 0}
+    roofMaterial: {fileID: 2100000, guid: 3c4f0efb115254b4b8c727ae2850b4a0, type: 2}
+    roofWallMaterial: {fileID: 2100000, guid: 3c4f0efb115254b4b8c727ae2850b4a0, type: 2}
+    buildAirco: 1
+  - staticHeight: 5
+    randomHeight: 1
+    minHeight: 8
+    maxHeight: 25
+    buildRoofWall: 1
+    roofWallHeight: 0.3
+    brickMaterial: {fileID: 2100000, guid: 5bed1d0489235b449a6f6882ea1f28c1, type: 2}
+    firstRowMaterial: {fileID: 2100000, guid: 1f487db58ca7b564182b8b12dae658e8, type: 2}
+    lastRowDifferent: 0
+    lastRowMaterial: {fileID: 0}
+    roofMaterial: {fileID: 2100000, guid: 3c4f0efb115254b4b8c727ae2850b4a0, type: 2}
+    roofWallMaterial: {fileID: 2100000, guid: 3c4f0efb115254b4b8c727ae2850b4a0, type: 2}
+    buildAirco: 1
+--- !u!114 &8911662713953002864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5278665728083519763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ebb27279f0df7541a41cd5e7886b94b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8388516949657333039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5278665728083519763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb5be9f56619e54c9f95fb5d2e83139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filename: Flat_CombinedMesh

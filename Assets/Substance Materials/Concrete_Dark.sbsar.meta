@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 59b96c2f8a079ca47b40eab65e2ab307
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 5a05abc65dd59ee4db5f5b74a6abc115, type: 2}
+  _assetPath: Assets/Substance Materials/Concrete_Dark.sbsar

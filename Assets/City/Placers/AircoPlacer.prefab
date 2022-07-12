@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1478411169218922787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463281838260149866}
+  - component: {fileID: 688483313526399342}
+  m_Layer: 0
+  m_Name: AircoPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1463281838260149866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478411169218922787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &688483313526399342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478411169218922787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f10225203015c44a5d0fda092db5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airco:
+  - {fileID: 2979314737448108944, guid: 7bee8e41d51964946b7d13a3bae3e55c, type: 3}
+  - {fileID: 827060369522811502, guid: 2dc1009d9561f664491c57b5cb952289, type: 3}
+  - {fileID: 5963217535638937699, guid: 68d2dd0c0ffc22544a0d49b6c2ff6e74, type: 3}
+  - {fileID: 7006901707808564552, guid: ccfb0943aa634d04cbb03d513a5c00d5, type: 3}

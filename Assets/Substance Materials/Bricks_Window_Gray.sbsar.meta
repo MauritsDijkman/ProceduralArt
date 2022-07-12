@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 943f06adfdfbeaa439bdb2ca3c4c4179
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 6e5f28ee3f9066e4e9633767ae3d9d5a, type: 2}
+  _assetPath: Assets/Substance Materials/Bricks_Window_Gray.sbsar
